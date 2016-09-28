@@ -1,0 +1,496 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hum",
+				"human"
+			],
+			[
+				"cont",
+				"constructor"
+			],
+			[
+				"bool",
+				"bool2"
+			],
+			[
+				"con",
+				"console\t(ecample.js)"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"add",
+				"addEvent"
+			],
+			[
+				"get",
+				"getWeight"
+			],
+			[
+				"ge",
+				"getElementBYId\t(index.html)"
+			],
+			[
+				"my",
+				"MYAPP"
+			],
+			[
+				"fuc",
+				"function"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"getL",
+				"getElementsByTagName"
+			],
+			[
+				"ng",
+				"ng-view\tAngularJS"
+			],
+			[
+				"ng-c",
+				"ng-controller\tAngularJS"
+			],
+			[
+				"searc",
+				"searchPlaceChange"
+			],
+			[
+				"select",
+				"selectedPlaceChange"
+			],
+			[
+				"selec",
+				"selectedPlaceChange"
+			],
+			[
+				"sti",
+				"stringify"
+			],
+			[
+				"load",
+				"loadPlaces"
+			],
+			[
+				"result",
+				"results"
+			],
+			[
+				"map",
+				"map-wrapper"
+			],
+			[
+				"angular",
+				"angular-ui-router"
+			],
+			[
+				"ng-",
+				"ng-controller\t(index.pug)"
+			],
+			[
+				"ap",
+				"api"
+			],
+			[
+				"cou",
+				"cloudinary\t(index.js)"
+			],
+			[
+				"mo",
+				"module\t(auth.module.js)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "array = [1];\nvar toa = 0;\nvar l = array.length;\nvar temp = [];\n\nfunction push(data){\narray[toa] = data;\ntoa++;\n\nif(toa == array.length){\n\tarray = temp\n}\n}",
+			"settings":
+			{
+				"buffer_size": 154,
+				"line_ending": "Windows",
+				"name": "array = [1];"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"termin",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/learning/index.html",
+		"/E/learning/ecample.js",
+		"/E/learning/style.css",
+		"/E/learning/script.js",
+		"/E/Projects/WhoWhatWhere/app/views/index.pug",
+		"/E/Projects/WhoWhatWhere/app/views/layout.pug",
+		"/E/Projects/WhoWhatWhere/public/js/index.js",
+		"/E/Projects/WhoWhatWhere/config/express.js",
+		"/E/Projects/WhoWhatWhere/bower.json",
+		"/E/Projects/WhoWhatWhere/app/controllers/home.js",
+		"/E/Projects/angular-fullstack-test/server/api/lenin/lenin.model.js",
+		"/E/Projects/angular-fullstack-test/gulpfile.babel.js",
+		"/E/Projects/angular-fullstack-test/webpack.build.js",
+		"/E/Projects/angular-fullstack-test/protractor.conf.js",
+		"/E/Projects/angular-fullstack-test/README.md",
+		"/E/Projects/angular-fullstack-test/server/api/lenin/index.js",
+		"/E/Projects/angular-fullstack-test/server/api/lenin/index.spec.js",
+		"/E/Projects/angular-fullstack-test/server/api/lenin/lenin.controller.js",
+		"/E/Projects/Achivers/public/index.html",
+		"/E/Projects/Achivers/public/app.js",
+		"/E/Projects/Achivers/public/controllers/AppController.js",
+		"/E/Projects/Achivers/bower.json",
+		"/E/Projects/Achivers/index.js",
+		"/E/Projects/Achivers/.bowerrc",
+		"/E/Projects/Achivers/package.json",
+		"/E/Projects/Achivers/bower_components/angular/bower.json",
+		"/E/Projects/Achivers/public/template/view-data.html",
+		"/E/Projects/Achivers/public/template/contact.html",
+		"/E/Projects/WhoWhatWhere/node_modules/dodge/src/endpoints/venues.coffee",
+		"/E/Projects/WhoWhatWhere/app/services/services.js",
+		"/E/Projects/WhoWhatWhere/app.js",
+		"/E/Projects/WhoWhatWhere/Gruntfile.js",
+		"/E/Projects/WhoWhatWhere/index.js",
+		"/E/Projects/WhoWhatWhere/app/views/error.pug",
+		"/E/Projects/WhoWhatWhere/public/components/angular-material/README.md",
+		"/E/Projects/WhoWhatWhere/public/components/angular/angular.js",
+		"/E/Projects/WhoWhatWhere/config/config.js",
+		"/E/Projects/Crive/criveme/konphyg/clientIdNSecrets.production.json",
+		"/E/Projects/Crive/criveme/passport.js",
+		"/E/Projects/Crive/criveme/konphyg/clientIdNSecrets.json",
+		"/E/Projects/Crive/criveme/routes/facebook.js",
+		"/E/Projects/Crive/criveme/routes/config.js",
+		"/E/Projects/Crive/criveme/config/crivemeroutes.js",
+		"/E/Projects/Crive/criveme/config/default.json",
+		"/E/Projects/Crive/criveme/model/image.js",
+		"/E/Projects/Crive/criveme/README.md",
+		"/E/Projects/Crive/criveme/routes/upload-multiple-file.js",
+		"/E/Projects/Crive/criveme/routes/sync-user-image.js",
+		"/E/Projects/Crive/criveme/routes/index.js",
+		"/E/Projects/Crive/criveme/routes/userProfile.js",
+		"/E/Projects/Crive/criveme/routes/user-setting.js",
+		"/E/Projects/Crive/criveme/public/stylesheets/style.css",
+		"/E/Projects/Crive/criveme/routes/errorHandler.js",
+		"/E/Projects/Crive/criveme/app.js",
+		"/E/Projects/Crive/criveme/bin/www",
+		"/E/Projects/Crive/criveme/views/index.jade",
+		"/E/Projects/Crive/criveme/views/home.jade",
+		"/E/Projects/Crive/criveme/views/error.jade",
+		"/E/Projects/Crive/New/CriveMe/server/api/upload/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/environment/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/express.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/upload/upload.controller.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/user/user.model.js",
+		"/E/Projects/Crive/New/CriveMe/webpack.make.js",
+		"/E/Projects/Crive/New/CriveMe/server/app.js",
+		"/E/Projects/Crive/New/CriveMe/server/auth/auth.service.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/upload/upload.model.js",
+		"/E/Projects/Crive/New/CriveMe/server/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/routes.js",
+		"/E/Projects/Crive/New/CriveMe/gulpfile.babel.js",
+		"/E/Projects/Crive/New/CriveMe/server/auth/facebook/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/auth/facebook/passport.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/user/user.controller.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/thing/thing.controller.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/thing/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/user/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/socketio.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/seed.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/local.env.sample.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/environment/shared.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/environment/production.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/environment/development.js",
+		"/E/Projects/Crive/New/CriveMe/server/auth/index.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/local.env.js",
+		"/E/Projects/Crive/New/CriveMe/server/config/environment/test.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/thing/thing.integration.js",
+		"/E/Projects/Crive/New/CriveMe/server/api/user/index.spec.js",
+		"/E/Projects/Crive/New/CriveMe/client/components/auth/auth.module.js",
+		"/E/Projects/Crive/New/CriveMe/client/components/auth/auth.service.js",
+		"/E/Projects/Crive/New/CriveMe/server/.eslintrc",
+		"/E/Projects/Crive/New/CriveMe/client/_index.html",
+		"/E/Projects/Crive/New/CriveMe/server/views/404.pug",
+		"/E/Projects/Crive/New/CriveMe/spec.js",
+		"/E/Projects/Crive/New/CriveMe/client/favicon.ico",
+		"/E/Projects/Crive/New/CriveMe/client/robots.txt",
+		"/E/Projects/Crive/New/CriveMe/client/polyfills.js",
+		"/E/Projects/Crive/New/CriveMe/README.md",
+		"/E/Projects/ng-fullstack-test/client/dev/index.html",
+		"/E/Projects/ng-fullstack-test/client/dev/app.route.js",
+		"/E/Projects/ng-fullstack-test/client/dev/app.js",
+		"/E/Projects/ng-fullstack-test/client/dev/todo/controllers/todo-controller.js",
+		"/E/Projects/ng-fullstack-test/client/dev/todo/models/todo-model.js",
+		"/E/Projects/ng-fullstack-test/tasks/server/test.js",
+		"/E/Projects/ng-fullstack-test/tasks/server/build_tsc.js",
+		"/E/Projects/ng-fullstack-test/tasks/server/build.js",
+		"/E/Projects/ng-fullstack-test/tasks/index.js",
+		"/E/Projects/ng-fullstack-test/server/api/todo/controller/todo-controller.js",
+		"/E/Projects/ng-fullstack-test/server/constants/db.json",
+		"/E/Projects/ng-fullstack-test/gulpfile.babel.js",
+		"/E/Projects/ng-fullstack-test/index.js",
+		"/E/Projects/ng-fullstack-test/server/server.js",
+		"/E/Projects/ng-fullstack-test/server/api/todo/routes/todo-routes.js",
+		"/E/Projects/ng-fullstack-test/server/config/db.conf.js",
+		"/E/Projects/ng-fullstack-test/server/config/routes.conf.js",
+		"/E/Projects/ng-fullstack-test/README.md",
+		"/E/Projects/ng-fullstack-test/newrelic.js",
+		"/E/Projects/Crive/crive-front/README.md",
+		"/E/Projects/Crive/crive-front/server.js",
+		"/E/Projects/Crive/criveme/Gruntfile.js",
+		"/E/Projects/Crive/criveme/routes/confirmEmail.js",
+		"/E/Projects/Crive/criveme/routes/google.js",
+		"/E/Projects/Crive/criveme/views/layout.jade",
+		"/E/Projects/Crive/criveme/views/upload-multiple-images.jade",
+		"/E/Projects/Crive/criveme/node_modules/crive-webrouter/crive-webrouter.js",
+		"/E/Projects/Crive/criveme/package.json",
+		"/E/Projects/Crive/crive-back/provider/provider.js",
+		"/E/Projects/Crive/crive-back/app.js",
+		"/E/Projects/Crive/crive-back/route/startRoute.js"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"example.js",
+			"lib",
+			"anguler",
+			"selectedItem",
+			"searchText",
+			"ctrl.",
+			"category.",
+			"ctrl",
+			"ui.router",
+			"3001",
+			"upload",
+			"facebook"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_name": "array = [1];",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "examples.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app",
+				"public\\app.js"
+			],
+			[
+				"/index.js",
+				"public\\js\\index.js"
+			],
+			[
+				"inde.pu",
+				"app\\views\\index.pug"
+			],
+			[
+				"express",
+				"server\\config\\express.js"
+			],
+			[
+				"config/en",
+				"server\\config\\environment\\index.js"
+			],
+			[
+				"upload.con",
+				"server\\api\\upload\\upload.controller.js"
+			],
+			[
+				"upload",
+				"routes\\upload-multiple-file.js"
+			],
+			[
+				"error",
+				"routes\\errorHandler.js"
+			],
+			[
+				"app.js",
+				"app.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

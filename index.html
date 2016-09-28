@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta />
+<script src="" type="text/javascript"></script>
+
+<style>
+button {border: 10px solid pink;}
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title></title>
+</head>
+<body>
+
+<h1>What Can JavaScript Do?</h1>
+
+
+<p id="demo" onclick="this.innerHTML = called()">JavaScript can change HTML content.</p>
+<span onclick="this.innerHTML = called()">This is span</span>
+<button type="button" onclick="this.innerHTML = called()" >Click Me!</button>
+<select onchange="change(event)">
+	<option>Haji</option>
+	<option>Lenin</option>	
+	<option>Chiru</option>	
+	<option>Srinivas</option>	
+	<option>Sekhar</option>	
+</select>
+<script>
+	var Person = function(peru){
+		this.name = peru;
+	};
+
+	Person.prototype.bolo = function(){
+		console.log('My name is ' + this.name);
+	}
+
+	var p = new Person('Lenin');
+	var q = new Person('Srinivas');
+
+	var sayHello = p.bolo;
+
+	sayHello();
+
+	var bool = sayHello() === p.bolo();
+	var bool2 = sayHello === Person.prototype.bolo;
+
+	console.log(bool, ' another: ', bool2);
+
+	sayHello.call(q);
+	console.log('------------------ x x x -------------------');
+	// end constructor---
+
+	//Inheritance-----
+
+	//create a constructor
+	var human = function(n){
+		this.humanName = n;
+	};
+
+	human.prototype.walk = function(){
+		console.log('im walking...');
+	};
+
+	human.prototype.say = function(){
+		console.log('who\'s saying ', this.humanName);
+	}
+
+	function student(fname, subject){
+		human.call(this, fname);
+
+		this.sub = subject;
+	}
+
+	student.prototype = Object.create(human.prototype);
+
+	student.prototype.constructor = student;
+
+	student.prototype.say = function(){
+		console.log('hello ' + this.humanName + '. im studying ' + this.sub);
+	} 
+
+	student.prototype.goodbye = function(){
+		console.log('goodbye');
+	}
+
+	//usage
+
+	var s = new student('Haji', 'Angular');
+
+	s.say();
+	s.walk();
+	s.goodbye();
+
+
+</script>
+<script src="script.js"></script>
+</body>
+</html>
+
